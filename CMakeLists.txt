@@ -126,7 +126,7 @@ foreach(arch_ ${architectures})
 endforeach(arch_ ${architectures})
 
 # Options
-option(BUILD_SHARED_LIBS "Enable building of shared libraries (dll/so)" OFF)
+option(BUILD_SHARED_LIBS "Enable building of shared libraries (dll/so)" ON)
 set(UA_LOGLEVEL 300 CACHE STRING "Level at which logs shall be reported")
 set(UA_MULTITHREADING 0 CACHE STRING "Level of multithreading (0-99: No Multithreading, 100-199: Thread-Safe API, >=200: Internal Threads")
 option(UA_ENABLE_HISTORIZING "Enable basic support for historical access (client and server)" OFF)
